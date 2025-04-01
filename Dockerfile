@@ -9,6 +9,7 @@ COPY --from=build /usr/src/app/target/release/rocket_simples ./
 COPY --from=build /usr/src/app/Rocket.toml ./
 COPY --from=build /usr/src/app/static ./
 COPY --from=build /usr/src/app/templates ./
+COPY --from=build /usr/src/app/db ./
 
 EXPOSE 8000
 CMD ["./rocket_simples"]
