@@ -1,5 +1,5 @@
 [package]
-name = "rocket-simples"
+name = "rocket_simples"
 version = "0.1.0"
 edition = "2024"
 

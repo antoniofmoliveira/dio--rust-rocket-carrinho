@@ -1432,18 +1432,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rocket-simples"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "dotenv",
- "rocket",
- "rocket_dyn_templates",
- "rusqlite",
- "serde",
-]
-
-[[package]]
 name = "rocket_codegen"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1498,6 +1486,18 @@ dependencies = [
  "time",
  "tokio",
  "uncased",
+]
+
+[[package]]
+name = "rocket_simples"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "dotenv",
+ "rocket",
+ "rocket_dyn_templates",
+ "rusqlite",
+ "serde",
 ]
 
 [[package]]
